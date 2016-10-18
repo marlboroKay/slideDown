@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body{
+	background: #191970;
+	font-family: 'Open Sans', Arial, Helvetica, Sans-serif, Verdana, Tahoma;;
+}
+ul{
+	list-style: none;
+}
+a{
+	color:#FF4500;
+	text-decoration: none;
+}
+
+/* 
+ *组件样式
+ */
+
+ .container{
+ 	width:100%;
+ 	max-width: 300px;
+ 	margin: 20px auto 30px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	background: #fff;
+ }
+ .container .link{
+ 	cursor: pointer;
+ 	color: #292421;
+ 	padding: 15px 15px 15px 50px;
+ 	font-size:14px;
+ 	font-weight: 700;
+ 	border-bottom: 1px solid #ccc;
+ 	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+ }
+ .container li.open .link{
+ 	color:#ED9121;
+ }
+ .container li:last-child .link{
+ 	border-bottom: 0;
+ }
+
+ /* 
+  *组件内容样式
+  */
+ .desc{
+ 	background: #3D59AB;
+ 	font-size: 14px;
+ 	display: none;
+ }
+ .desc li{
+ 	border-bottom: 1px solid #ccc;
+ }
+ .desc li:last-child{
+ 	border-bottom: 0;
+ }
+ .desc a{
+ 	display: block;
+ 	padding:12px;
+ 	padding-left: 50px;
+ 	color: #808A87;
+ 	-webkit-transition: all 0.25s ease;
+ 	-o-transition: all 0.25s ease;
+ 	transition: all 0.25s ease;
+
+ }
+ .desc a:hover{
+ 	background: #1E90FF;
+ 	color: #fff;
+ }
